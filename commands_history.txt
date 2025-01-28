@@ -1,0 +1,29 @@
+    1  echo "Hello from Docker!" > /workspace/test.txt
+    2  ls /workspace
+    3  apt update && apt install nano -y
+    4  nano Pets.txt
+    5  ls /workspace
+    6  echo "Dog, Cat, Hamster" > Pets.txt
+    7  echo "Dog, Cat, Hamster" > /workspace/Pets.txt
+    8  cd /workspace
+    9  echo -e "Horse\nCamel\nDonkey" > PackAnimals.txt
+   10  cat Pets.txt
+   11  cat PackAnimals.txt
+   12  cat Pets.txt
+   13  echo -e "Dog\nCat\nHamster" > Pets.txt
+   14  cat Pets.txt PackAnimals.txt > HumanFriends.txt
+   15  cat HumanFriends.txt
+   16  mv HumanFriends.txt Human_Friends.txt
+   17  ls -la
+   18  mkdir Friends
+   19  mv Human_Friends.txt Friends/
+   20  ls -la Friends
+   21  apt-get update
+   22  apt-get install -y mysql-server
+   23  mysql --version
+   24  service mysql start
+   25  mysql
+   26  apt update && apt install wget -y
+   27  dpkg -i htop_2.2.0-2build1_amd64.deb
+   28  dpkg -r htop
+   29  history > commands_history.txt
