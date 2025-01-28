@@ -27,3 +27,6 @@
    27  dpkg -i htop_2.2.0-2build1_amd64.deb
    28  dpkg -r htop
    29  history > commands_history.txt
+
+Full Name: Tarakanov Egor Evgenievich
+Date: 28-01-2025
